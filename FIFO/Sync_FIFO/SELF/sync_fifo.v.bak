@@ -1,0 +1,62 @@
+module	sync_fifo #(parameter WIDTH = 4, DEPTH = 8) 
+		(input clk, rst_n, wr_en, rd_en,
+		input [DEPTH-1:0] write_data, 
+		output [DEPTH-1:0] read_data,
+		output full, empty );
+		 
+		reg [WIDTH:0] wr_addr, rd_addr;
+	
+		sram sync_fifo_sram (.clk(clk),
+							 .rst_n(rst_n),
+							 .wr_en(wr_en),
+							 .rd_en(rd_en),
+							 .read_data(read_data),
+							 .write_data(write_data)); 
+	
+		always @(posedge clk) begin
+			if(!rst_n) begin
+				wr_addr <= 0;
+				rd_addr <= 0;
+				read_data <= 0;	
+			end
+		end
+		
+		always @(posedge clk) begin
+			wr_addr <= 0;
+			rd_addr <= 0;
+			if(wr_en & !full) begin
+				wr_addr <= wr_addr + 1;
+			end
+			else if(rd_en & !empty) begin
+				rd_addr <= rd_addr + 1;
+			end
+		end
+		
+		assign wrap = (wr_addr[4]^rd_addr[4]);
+		assign full = wrap;
+		assign empty = !wrap;
+		
+endmodule
+
+
+module sram #(parameter WIDTH = 4, DEPTH = 8)
+			(input clk, rst_n, wr_en, rd_en,
+			input [DEPTH-1:0] write_data,
+			output [DEPTH-1:0] read_data);
+			
+		reg [WIDTH-1:0] register [DEPTH:0];
+		reg [WIDTH:0] wr_ptr, rd_ptr;
+		
+		always @(posedge clk) begin
+			if(!rst_n)begin
+				wr_ptr <= 0;
+				rd_ptr <= 0;
+			end
+			else if(wr_en) begin
+				fifo[wr_ptr] <= write_data;
+			end
+			else if(rd_en) begin
+				read_data <= fifo[rd_ptr];
+			end
+		end
+endmodule

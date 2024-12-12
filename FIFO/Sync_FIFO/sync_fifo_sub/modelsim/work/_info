@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vsram
+Z0 !s110 1683696328
+!i10b 1
+!s100 :cG32^b2G4QEFG6W>CYNa3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRHU2;jG:ad[F^zS[:U@X>0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/Projects/Sync_FIFO/sync_fifo_sub/modelsim
+Z4 w1683691424
+8E:/Projects/Sync_FIFO/sync_fifo_sub/sram.v
+FE:/Projects/Sync_FIFO/sync_fifo_sub/sram.v
+!i122 0
+L0 15 47
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1683696327.000000
+!s107 E:/Projects/Sync_FIFO/sync_fifo_sub/sram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Projects/Sync_FIFO/sync_fifo_sub/sram.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsync_fifo
+R0
+!i10b 1
+!s100 jkLDNn:MLS7T<=O[Ljnm73
+R1
+IzU:];hWBzIThFIm<d;?VA3
+R2
+R3
+w1683695251
+8E:/Projects/Sync_FIFO/sync_fifo_sub/sync_fifo.v
+FE:/Projects/Sync_FIFO/sync_fifo_sub/sync_fifo.v
+!i122 1
+L0 15 139
+R5
+r1
+!s85 0
+31
+Z8 !s108 1683696328.000000
+!s107 E:/Projects/Sync_FIFO/sync_fifo_sub/sync_fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Projects/Sync_FIFO/sync_fifo_sub/sync_fifo.v|
+!i113 1
+R6
+R7
+vsync_fifo_tb
+R0
+!i10b 1
+!s100 ^FUPMYQ@0gIbN3QGDmLEf0
+R1
+IQ]fTghP[ZR<4P]c3mz^T93
+R2
+R3
+R4
+8E:/Projects/Sync_FIFO/sync_fifo_sub/tb.v
+FE:/Projects/Sync_FIFO/sync_fifo_sub/tb.v
+!i122 2
+L0 15 187
+R5
+r1
+!s85 0
+31
+R8
+!s107 E:/Projects/Sync_FIFO/sync_fifo_sub/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Projects/Sync_FIFO/sync_fifo_sub/tb.v|
+!i113 1
+R6
+R7

@@ -1,0 +1,22 @@
+module binary_to_gray(parameter PTR=4)
+					(input [PTR:0]binary_value,
+					 output [PTR:0]gray_value);
+
+genvar i;
+
+generate
+ 
+binary_value[PTR] = gray_value[PTR];
+
+for (i=PTR; i>0 i=i-1)begin
+
+b_to_g BG[i] (.a(binary_value[i]), .b(binary_value[i-1]), .z(gray_value[i-1]));
+
+end
+endgenerate
+
+module b_to_g(input a, b, output z);
+
+xor (z,a,b);
+
+endmodule

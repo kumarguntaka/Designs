@@ -1,0 +1,76 @@
+vsim -gui work.router_fifo_tb
+# vsim -gui work.router_fifo_tb 
+# Start time: 22:34:57 on Oct 25,2023
+# Loading work.router_fifo_tb
+# Loading work.router_fifo
+add wave -position insertpoint sim:/router_fifo_tb/*
+run -all
+#                    0clock=0,resetn=0,read_enb=x,write_enb=x,din=  x,lfd_state=x,soft_reset=0,data_out=  x,full=x,empty=x
+#                    5clock=1,resetn=0,read_enb=x,write_enb=x,din=  x,lfd_state=x,soft_reset=0,data_out=  0,full=0,empty=1
+#                   10clock=0,resetn=1,read_enb=x,write_enb=x,din=  x,lfd_state=x,soft_reset=0,data_out=  0,full=0,empty=1
+#                   15clock=1,resetn=1,read_enb=x,write_enb=x,din=  x,lfd_state=x,soft_reset=0,data_out=  0,full=0,empty=1
+#                   20clock=0,resetn=1,read_enb=x,write_enb=1,din= 62,lfd_state=1,soft_reset=0,data_out=  0,full=0,empty=1
+#                   25clock=1,resetn=1,read_enb=x,write_enb=1,din= 62,lfd_state=1,soft_reset=0,data_out=  0,full=0,empty=0
+#                   30clock=0,resetn=1,read_enb=x,write_enb=1,din= 62,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   35clock=1,resetn=1,read_enb=x,write_enb=1,din= 62,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   40clock=0,resetn=1,read_enb=x,write_enb=1,din=129,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   45clock=1,resetn=1,read_enb=x,write_enb=1,din=129,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   50clock=0,resetn=1,read_enb=x,write_enb=1,din=  9,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   55clock=1,resetn=1,read_enb=x,write_enb=1,din=  9,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   60clock=0,resetn=1,read_enb=x,write_enb=1,din= 99,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   65clock=1,resetn=1,read_enb=x,write_enb=1,din= 99,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   70clock=0,resetn=1,read_enb=x,write_enb=1,din= 13,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   75clock=1,resetn=1,read_enb=x,write_enb=1,din= 13,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   80clock=0,resetn=1,read_enb=x,write_enb=1,din=141,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   85clock=1,resetn=1,read_enb=x,write_enb=1,din=141,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   90clock=0,resetn=1,read_enb=x,write_enb=1,din=101,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                   95clock=1,resetn=1,read_enb=x,write_enb=1,din=101,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  100clock=0,resetn=1,read_enb=x,write_enb=1,din= 18,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  105clock=1,resetn=1,read_enb=x,write_enb=1,din= 18,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  110clock=0,resetn=1,read_enb=x,write_enb=1,din=  1,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  115clock=1,resetn=1,read_enb=x,write_enb=1,din=  1,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  120clock=0,resetn=1,read_enb=x,write_enb=1,din= 13,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  125clock=1,resetn=1,read_enb=x,write_enb=1,din= 13,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  130clock=0,resetn=1,read_enb=x,write_enb=1,din=118,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  135clock=1,resetn=1,read_enb=x,write_enb=1,din=118,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  140clock=0,resetn=1,read_enb=x,write_enb=1,din= 61,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  145clock=1,resetn=1,read_enb=x,write_enb=1,din= 61,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  150clock=0,resetn=1,read_enb=x,write_enb=1,din=237,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  155clock=1,resetn=1,read_enb=x,write_enb=1,din=237,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  160clock=0,resetn=1,read_enb=x,write_enb=1,din=140,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  165clock=1,resetn=1,read_enb=x,write_enb=1,din=140,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  170clock=0,resetn=1,read_enb=x,write_enb=1,din=249,lfd_state=0,soft_reset=0,data_out=  0,full=0,empty=0
+#                  175clock=1,resetn=1,read_enb=x,write_enb=1,din=249,lfd_state=0,soft_reset=0,data_out=  0,full=1,empty=0
+#                  180clock=0,resetn=1,read_enb=x,write_enb=1,din=198,lfd_state=0,soft_reset=0,data_out=  0,full=1,empty=0
+#                  185clock=1,resetn=1,read_enb=x,write_enb=1,din=198,lfd_state=0,soft_reset=0,data_out=  0,full=1,empty=0
+#                  190clock=0,resetn=1,read_enb=x,write_enb=1,din=197,lfd_state=0,soft_reset=0,data_out=  0,full=1,empty=0
+#                  195clock=1,resetn=1,read_enb=x,write_enb=1,din=197,lfd_state=0,soft_reset=0,data_out=  0,full=1,empty=0
+#                  200clock=0,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  0,full=1,empty=0
+#                  205clock=1,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  210clock=0,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  215clock=1,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  220clock=0,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  225clock=1,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  230clock=0,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  235clock=1,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  240clock=0,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  245clock=1,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  250clock=0,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  255clock=1,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  260clock=0,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  265clock=1,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  270clock=0,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  275clock=1,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  280clock=0,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  285clock=1,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  290clock=0,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+#                  295clock=1,resetn=1,read_enb=1,write_enb=1,din=197,lfd_state=0,soft_reset=1,data_out=  Z,full=0,empty=1
+# ** Note: $finish    : D:/Classes/526/project/kumar/FIFO/router_fifo_tb.v(19)
+#    Time: 300 ps  Iteration: 0  Instance: /router_fifo_tb
+# 1
+# Break in Module router_fifo_tb at D:/Classes/526/project/kumar/FIFO/router_fifo_tb.v line 19
+# Error opening D:/Classes/526/project/kumar/FIFO/router_fifo_tb.v
+# Path name 'D:/Classes/526/project/kumar/FIFO/router_fifo_tb.v' doesn't exist.
+quit -sim
+# End time: 22:39:14 on Oct 25,2023, Elapsed time: 0:04:17
+# Errors: 0, Warnings: 1

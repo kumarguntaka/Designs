@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Fri Jan 12 23:26:13 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : Async_fifo
+Top-level Entity Name : Async_fifo
+Family : MAX V
+Total logic elements : 81
+Total pins : 171
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

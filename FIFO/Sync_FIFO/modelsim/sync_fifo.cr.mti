@@ -1,0 +1,16 @@
+E:/Projects/Sync_FIFO/sync_fifo.v {1 {vlog -work work -stats=none E:/Projects/Sync_FIFO/sync_fifo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sync_fifo
+-- Compiling module sram
+
+Top level modules:
+	sync_fifo
+
+} {} {}} E:/Projects/Sync_FIFO/sync_fifo_tb.v {1 {vlog -work work -stats=none {E:\Projects\Sync_FIFO\sync_fifo_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sync_fifo_tb
+
+Top level modules:
+	sync_fifo_tb
+
+} {} {}}

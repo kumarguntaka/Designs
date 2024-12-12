@@ -1,0 +1,149 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vrouter_fifo
+Z0 !s110 1671267687
+!i10b 1
+!s100 OLj98zm?ALj;<lBLJ5OZ:2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7^DJEJNZ?@O[58GEFBfZc0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Classes/526/project/kumar/TOP/sim
+Z4 w1667526471
+8D:/Classes/526/project/kumar/TOP/router_fifo.v
+FD:/Classes/526/project/kumar/TOP/router_fifo.v
+!i122 6
+L0 1 107
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1671267687.000000
+!s107 D:/Classes/526/project/kumar/TOP/router_fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Classes/526/project/kumar/TOP/router_fifo.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vrouter_fsm
+R0
+!i10b 1
+!s100 2d2`c[mded49O833PNfKg2
+R1
+Iz[Gb^]C0Qz>2c26IePE=30
+R2
+R3
+R4
+8D:/Classes/526/project/kumar/TOP/router_fsm.v
+FD:/Classes/526/project/kumar/TOP/router_fsm.v
+!i122 7
+L0 1 141
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Classes/526/project/kumar/TOP/router_fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Classes/526/project/kumar/TOP/router_fsm.v|
+!i113 1
+R7
+R8
+vrouter_reg
+R0
+!i10b 1
+!s100 cLa==iQcJ]752Z1nhSzMZ1
+R1
+I32D[M_<gDX91;zVkC4c5z3
+R2
+R3
+Z9 w1667526472
+8D:/Classes/526/project/kumar/TOP/router_reg.v
+FD:/Classes/526/project/kumar/TOP/router_reg.v
+!i122 8
+L0 1 87
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Classes/526/project/kumar/TOP/router_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Classes/526/project/kumar/TOP/router_reg.v|
+!i113 1
+R7
+R8
+vrouter_sync
+R0
+!i10b 1
+!s100 ADPc<3PZN=BNV`TE[oDVB2
+R1
+Inzj?e^>A?Qd>Ll7JzlEBA2
+R2
+R3
+R9
+8D:/Classes/526/project/kumar/TOP/router_sync.v
+FD:/Classes/526/project/kumar/TOP/router_sync.v
+!i122 9
+L0 1 176
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Classes/526/project/kumar/TOP/router_sync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Classes/526/project/kumar/TOP/router_sync.v|
+!i113 1
+R7
+R8
+vrouter_top
+Z10 !s110 1671267688
+!i10b 1
+!s100 X8VOPm[[n>6D`;m0FCG5j1
+R1
+I90LNB2<80Q1V_27YhZjde3
+R2
+R3
+R9
+8D:/Classes/526/project/kumar/TOP/router_top.v
+FD:/Classes/526/project/kumar/TOP/router_top.v
+!i122 10
+L0 1 24
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Classes/526/project/kumar/TOP/router_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Classes/526/project/kumar/TOP/router_top.v|
+!i113 1
+R7
+R8
+vrouter_top_tb
+R10
+!i10b 1
+!s100 ghHnK;MI7KzkRMWWC0ac61
+R1
+I8]lmF3ajZkUY9ZAU>0K4N3
+R2
+R3
+w1671267677
+8D:\Classes\526\project\kumar\TOP\router_top_tb.v
+FD:\Classes\526\project\kumar\TOP\router_top_tb.v
+!i122 11
+L0 1 65
+R5
+r1
+!s85 0
+31
+!s108 1671267688.000000
+!s107 D:\Classes\526\project\kumar\TOP\router_top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Classes\526\project\kumar\TOP\router_top_tb.v|
+!i113 1
+R7
+R8

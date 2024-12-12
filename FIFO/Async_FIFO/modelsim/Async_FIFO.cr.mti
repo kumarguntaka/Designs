@@ -1,0 +1,38 @@
+E:/Projects/Async_FIFO/gray_to_binary.v {1 {vlog -work work -stats=none E:/Projects/Async_FIFO/gray_to_binary.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module gray_to_binary
+-- Compiling module GB
+
+Top level modules:
+	gray_to_binary
+
+} {} {}} E:/Projects/Async_FIFO/binary_to_gray.v {1 {vlog -work work -stats=none E:/Projects/Async_FIFO/binary_to_gray.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module binary_to_gray
+-- Compiling module BG
+
+Top level modules:
+	binary_to_gray
+
+} {} {}} E:/Projects/Async_FIFO/Async_FIFO_tb.v {1 {vlog -work work -stats=none E:/Projects/Async_FIFO/Async_FIFO_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module async_fifo_tb
+
+Top level modules:
+	async_fifo_tb
+
+} {} {}} E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/Async_sram.v {1 {vlog -work work -stats=none {E:\Projects\Async_FIFO\SRAM_Asyn_FIFO\Async_sram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sram
+
+Top level modules:
+	sram
+
+} {} {}} E:/Projects/Async_FIFO/Async_FIFO.sv {1 {vlog -work work -sv -stats=none E:/Projects/Async_FIFO/Async_FIFO.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module async_fifo
+
+Top level modules:
+	async_fifo
+
+} {} {}}

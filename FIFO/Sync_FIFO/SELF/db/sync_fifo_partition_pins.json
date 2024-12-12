@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "read_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "read_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "read_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "read_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "full",
+					"strict" : false
+				},
+				{
+					"name" : "empty",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "wr_en",
+					"strict" : false
+				},
+				{
+					"name" : "rd_en",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "write_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "write_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "write_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "write_data[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

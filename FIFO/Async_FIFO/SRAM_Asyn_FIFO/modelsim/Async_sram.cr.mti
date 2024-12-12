@@ -1,0 +1,15 @@
+E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/sram_tb.v {1 {vlog -work work -stats=none E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/sram_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sram_tb
+
+Top level modules:
+	sram_tb
+
+} {} {}} E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/Async_sram.v {1 {vlog -work work -stats=none E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/Async_sram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sram
+
+Top level modules:
+	sram
+
+} {} {}}

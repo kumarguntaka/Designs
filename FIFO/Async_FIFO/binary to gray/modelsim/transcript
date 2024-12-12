@@ -1,0 +1,45 @@
+# Compile of binary_to_gray_tb.v was successful.
+# Compile of binary_to_gray.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Error opening E:/Projects/Async_FIFO/binary to gray/modelsim/(vlog-13069) E:/Projects/Async_FIFO/binary_to_gray.v
+# Path name 'E:/Projects/Async_FIFO/binary to gray/modelsim/(vlog-13069) E:/Projects/Async_FIFO/binary_to_gray.v' doesn't exist.
+# Error opening E:/Projects/Async_FIFO/binary to gray/modelsim/(vlog-13069) E:/Projects/Async_FIFO/binary_to_gray.v
+# Path name 'E:/Projects/Async_FIFO/binary to gray/modelsim/(vlog-13069) E:/Projects/Async_FIFO/binary_to_gray.v' doesn't exist.
+# Error opening E:/Projects/Async_FIFO/binary to gray/modelsim/(vlog-13069) E:/Projects/Async_FIFO/binary_to_gray.v
+# Path name 'E:/Projects/Async_FIFO/binary to gray/modelsim/(vlog-13069) E:/Projects/Async_FIFO/binary_to_gray.v' doesn't exist.
+# Error opening E:/Projects/Async_FIFO/binary to gray/modelsim/(vlog-13069) E:/Projects/Async_FIFO/binary_to_gray.v
+# Path name 'E:/Projects/Async_FIFO/binary to gray/modelsim/(vlog-13069) E:/Projects/Async_FIFO/binary_to_gray.v' doesn't exist.
+# Compile of binary_to_gray_tb.v was successful.
+# Compile of binary_to_gray.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 10:36:10 on Apr 20,2023
+# Loading work.testbench
+# Loading work.binary_to_gray
+# Loading work.BG
+add wave -position insertpoint sim:/testbench/*
+run -all
+# binary_value = 0000, gray_value = 0000
+# binary_value = 0001, gray_value = 0001
+# binary_value = 0010, gray_value = 0011
+# binary_value = 0011, gray_value = 0010
+# binary_value = 0100, gray_value = 0110
+# binary_value = 0101, gray_value = 0111
+# binary_value = 0110, gray_value = 0101
+# binary_value = 0111, gray_value = 0100
+# binary_value = 1000, gray_value = 1100
+# binary_value = 1001, gray_value = 1101
+# binary_value = 1010, gray_value = 1111
+# binary_value = 1011, gray_value = 1110
+# binary_value = 1100, gray_value = 1010
+# binary_value = 1101, gray_value = 1011
+# binary_value = 1110, gray_value = 1001
+# binary_value = 1111, gray_value = 1000
+# ** Note: $finish    : E:/Projects/Async_FIFO/binary to gray/binary_to_gray_tb.v(67)
+#    Time: 80 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at E:/Projects/Async_FIFO/binary to gray/binary_to_gray_tb.v line 67
+quit -sim
+# End time: 13:31:20 on Apr 20,2023, Elapsed time: 2:55:10
+# Errors: 0, Warnings: 7

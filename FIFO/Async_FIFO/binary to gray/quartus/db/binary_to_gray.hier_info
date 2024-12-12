@@ -1,0 +1,29 @@
+|binary_to_gray
+binary_value[0] => binary_value[0].IN1
+binary_value[1] => binary_value[1].IN2
+binary_value[2] => binary_value[2].IN2
+binary_value[3] => binary_value[3].IN1
+gray_value[0] <= BG:Bi_to_Gr[1].M.z
+gray_value[1] <= BG:Bi_to_Gr[2].M.z
+gray_value[2] <= BG:Bi_to_Gr[3].M.z
+gray_value[3] <= binary_value[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_to_gray|BG:Bi_to_Gr[3].M
+a => comb.IN0
+b => comb.IN1
+z <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_to_gray|BG:Bi_to_Gr[2].M
+a => comb.IN0
+b => comb.IN1
+z <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_to_gray|BG:Bi_to_Gr[1].M
+a => comb.IN0
+b => comb.IN1
+z <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

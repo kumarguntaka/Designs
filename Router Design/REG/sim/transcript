@@ -1,0 +1,16 @@
+vsim -gui work.router_reg_tb
+# vsim -gui work.router_reg_tb 
+# Start time: 22:16:47 on Oct 25,2023
+# Loading work.router_reg_tb
+# Loading work.router_reg
+add wave -position insertpoint sim:/router_reg_tb/*
+run -all
+# ** Note: $finish    : D:/Classes/526/project/kumar/REG/router_reg_tb.v(36)
+#    Time: 540 ps  Iteration: 0  Instance: /router_reg_tb
+# 1
+# Break in Module router_reg_tb at D:/Classes/526/project/kumar/REG/router_reg_tb.v line 36
+# Error opening D:/Classes/526/project/kumar/REG/router_reg_tb.v
+# Path name 'D:/Classes/526/project/kumar/REG/router_reg_tb.v' doesn't exist.
+quit -sim
+# End time: 22:24:25 on Oct 25,2023, Elapsed time: 0:07:38
+# Errors: 0, Warnings: 1

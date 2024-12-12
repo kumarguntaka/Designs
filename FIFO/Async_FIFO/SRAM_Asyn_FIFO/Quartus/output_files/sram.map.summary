@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Wed Apr 19 13:55:10 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : sram
+Top-level Entity Name : sram
+Family : MAX V
+Total logic elements : 64
+Total pins : 76
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

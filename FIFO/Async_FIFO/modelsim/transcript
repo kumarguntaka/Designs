@@ -1,0 +1,346 @@
+# Compile of Async_FIFO.v was successful.
+# Compile of Async_FIFO_tb.v was successful.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.async_fifo_tb
+# vsim -gui work.async_fifo_tb 
+# Start time: 15:20:42 on May 09,2023
+# Loading work.async_fifo_tb
+# Loading work.async_fifo
+# Loading work.binary_to_gray
+# Loading work.gray_to_binary
+# Loading work.GB
+# Loading work.sram
+# Loading work.BG
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 71
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 71
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 111
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 111
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 168
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 168
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 208
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 208
+# ** Error (suppressible): (vsim-3389) Port 'wrclk' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'wren' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'wr_addr' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'write_data' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'rdclk' not found in the connected module (5th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'read_en' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'rd_addr' not found in the connected module (7th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'read_data' not found in the connected module (8th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /async_fifo_tb/async_fifo_inst/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# Error loading design
+# End time: 15:20:43 on May 09,2023, Elapsed time: 0:00:01
+# Errors: 8, Warnings: 10
+# Compile of Async_FIFO.v was successful.
+# Compile of Async_FIFO_tb.v failed with 2 errors.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of Async_FIFO.v was successful.
+# Compile of Async_FIFO_tb.v failed with 7 errors.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# 5 compiles, 1 failed with 7 errors.
+# Compile of Async_FIFO.v was successful.
+# Compile of Async_FIFO_tb.v failed with 5 errors.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# 5 compiles, 1 failed with 5 errors.
+# Compile of Async_FIFO.v was successful.
+# Compile of Async_FIFO_tb.v was successful.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.async_fifo_tb
+# vsim -gui work.async_fifo_tb 
+# Start time: 15:46:12 on May 09,2023
+# Loading work.async_fifo_tb
+# Loading work.async_fifo
+# Loading work.binary_to_gray
+# Loading work.gray_to_binary
+# Loading work.GB
+# Loading work.sram
+# Loading work.BG
+# ** Error: (vsim-3043) Unresolved reference to 'assert'.
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb File: E:/Projects/Async_FIFO/Async_FIFO_tb.v Line: 57
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 71
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 71
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 111
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 111
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 168
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 168
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 208
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 208
+# ** Error (suppressible): (vsim-3389) Port 'wrclk' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'wren' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'wr_addr' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'write_data' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'rdclk' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'read_en' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'rd_addr' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# ** Error (suppressible): (vsim-3389) Port 'read_data' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.v Line: 228
+# Error loading design
+# End time: 15:46:12 on May 09,2023, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 13
+# Compile of Async_FIFO.v failed with 1 errors.
+# Compile of Async_FIFO_tb.v was successful.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Error opening E:/Projects/Async_FIFO/Async_FIFO.v
+# Path name 'E:/Projects/Async_FIFO/Async_FIFO.v' doesn't exist.
+# Error opening E:/Projects/Async_FIFO/Async_FIFO.v
+# Path name 'E:/Projects/Async_FIFO/Async_FIFO.v' doesn't exist.
+# Compile of Async_FIFO_tb.v was successful.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# Compile of Async_FIFO.sv failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of Async_FIFO_tb.v was successful.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# Compile of Async_FIFO.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.async_fifo_tb
+# vsim -gui work.async_fifo_tb 
+# Start time: 16:15:35 on May 09,2023
+# Loading work.async_fifo_tb
+# Loading sv_std.std
+# Loading work.async_fifo
+# Loading work.binary_to_gray
+# Loading work.gray_to_binary
+# Loading work.GB
+# Loading work.sram
+# Loading work.BG
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 170
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 170
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 210
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 210
+# ** Error (suppressible): (vsim-3389) Port 'wrclk' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'wren' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'wr_addr' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'write_data' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'rdclk' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'read_en' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'rd_addr' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'read_data' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# Error loading design
+# End time: 16:15:35 on May 09,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 14
+# Compile of Async_FIFO_tb.v was successful.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# Compile of Async_FIFO.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.async_fifo_tb
+# vsim -gui work.async_fifo_tb 
+# Start time: 16:16:45 on May 09,2023
+# Loading work.async_fifo_tb
+# Loading sv_std.std
+# Loading work.async_fifo
+# Loading work.binary_to_gray
+# Loading work.gray_to_binary
+# Loading work.GB
+# Loading work.sram
+# Loading work.BG
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 170
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 170
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 210
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 210
+# ** Error (suppressible): (vsim-3389) Port 'wrclk' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'wren' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'wr_addr' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'write_data' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'rdclk' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'read_en' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'rd_addr' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# ** Error (suppressible): (vsim-3389) Port 'read_data' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 230
+# Error loading design
+# End time: 16:16:45 on May 09,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 10
+# Compile of Async_FIFO_tb.v was successful.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# Compile of Async_FIFO.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.async_fifo_tb
+# vsim -gui work.async_fifo_tb 
+# Start time: 16:19:36 on May 09,2023
+# Loading work.async_fifo_tb
+# Loading sv_std.std
+# Loading work.async_fifo
+# Loading work.binary_to_gray
+# Loading work.gray_to_binary
+# Loading work.GB
+# Loading work.sram
+# Loading work.BG
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 170
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 170
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 210
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 210
+# ** Error (suppressible): (vsim-3389) Port 'wrclk' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'wren' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'wr_addr' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'write_data' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'rdclk' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'read_en' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'rd_addr' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'read_data' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# Error loading design
+# End time: 16:19:36 on May 09,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 10
+# Compile of Async_FIFO_tb.v was successful.
+# Compile of binary_to_gray.v was successful.
+# Compile of gray_to_binary.v was successful.
+# Compile of Async_sram.v was successful.
+# Compile of Async_FIFO.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.async_fifo_tb
+# vsim -gui work.async_fifo_tb 
+# Start time: 16:22:17 on May 09,2023
+# Loading work.async_fifo_tb
+# Loading sv_std.std
+# Loading work.async_fifo
+# Loading work.binary_to_gray
+# Loading work.gray_to_binary
+# Loading work.GB
+# Loading work.sram
+# Loading work.BG
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 73
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_wr File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 170
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/binary_to_gray.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/binary_to_gray_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 170
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'gray_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 210
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'binary_value'. The port definition is at: E:/Projects/Async_FIFO/gray_to_binary.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/gray_to_binary_rd File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 210
+# ** Error (suppressible): (vsim-3389) Port 'wrclk' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'wren' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'wr_addr' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'write_data' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'rdclk' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'read_en' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'rd_addr' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# ** Error (suppressible): (vsim-3389) Port 'read_data' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /async_fifo_tb/dut/sram_0 File: E:/Projects/Async_FIFO/Async_FIFO.sv Line: 229
+# Error loading design
+# End time: 16:22:17 on May 09,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 10

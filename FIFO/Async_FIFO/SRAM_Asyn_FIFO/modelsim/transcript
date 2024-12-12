@@ -1,0 +1,29 @@
+# Compile of Async_sram.v was successful.
+# Compile of sram_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.sram_tb
+# vsim -gui work.sram_tb 
+# Start time: 14:14:37 on May 09,2023
+# Loading work.sram_tb
+# Loading work.sram
+# ** Error: (vsim-3063) Port 'wr_data' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /sram_tb/dut File: E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/sram_tb.v Line: 16
+# Error loading design
+# End time: 14:14:38 on May 09,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of Async_sram.v was successful.
+# Compile of sram_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.sram_tb
+# vsim -gui work.sram_tb 
+# Start time: 14:23:19 on May 09,2023
+# Loading work.sram_tb
+# Loading work.sram
+add wave -position insertpoint sim:/sram_tb/*
+run -all
+# Data at address 0: 00000001
+# Data at address 1: 00000002
+# Break key hit
+# Simulation stop requested.
+# End time: 15:15:23 on May 09,2023, Elapsed time: 0:52:04
+# Errors: 0, Warnings: 3

@@ -1,0 +1,62 @@
+`timescale 1 ns / 1 ns
+
+module async_fifo_tb();
+
+	// Parameters
+	parameter ADDR = 4;
+	parameter WIDTH = 32;
+
+	// Inputs
+	reg wrclk, rst_wrclk, write_en, snap_wraddr, roll_wraddr, rst_waddr;
+	reg rdclk, rst_rdclk, read_en, snap_rdaddr, roll_rdaddr, rst_rdaddr;
+	reg [WIDTH-1:0] write_data;
+	
+	// Outputs
+	wire [WIDTH-1:0] read_data;
+	wire fifo_full, fifo_empty;
+	wire [ADDR:0] room_avail, data_avail;
+
+	// Instantiate the asynchronous FIFO
+	async_fifo #(.ADDR(ADDR), .WIDTH(WIDTH)) async_fifo_inst(
+		.wrclk(wrclk), .rst_wrclk(rst_wrclk), .write_en(write_en),
+		.snap_wraddr(snap_wraddr), .roll_wraddr(roll_wraddr), .rst_waddr(rst_waddr),
+		.rdclk(rdclk), .rst_rdclk(rst_rdclk), .read_en(read_en),
+		.snap_rdaddr(snap_rdaddr), .roll_rdaddr(roll_rdaddr), .rst_rdaddr(rst_rdaddr),
+		.write_data(write_data), .read_data(read_data), .fifo_full(fifo_full),
+		.fifo_empty(fifo_empty), .room_avail(room_avail), .data_avail(data_avail)
+	);
+
+	// Clock generator
+	always #5 wrclk = ~wrclk;
+	always #8 rdclk = ~rdclk;
+
+	// Reset generator
+	initial begin
+		rst_wrclk = 1;
+		rst_rdclk = 1;
+		rst_waddr = 1;
+		rst_rdaddr = 1;
+		#20 rst_wrclk = 0;
+		#20 rst_rdclk = 0;
+		#20 rst_waddr = 0;
+		#20 rst_rdaddr = 0;
+	end
+
+	// Write data to the FIFO
+	initial begin
+		write_en = 1;
+		for(i=0; i<16; i=i+1) begin
+			write_data = i;
+			#10;
+		end
+	end
+
+	// Read data from the FIFO
+	initial begin
+		read_en = 1;
+		for(i=0; i<16; i=i+1) begin
+			#10;
+		end
+	end
+
+endmodule

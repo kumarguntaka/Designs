@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="router_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="router_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="380.001 ns"></ZoomEndTime>
+      <Cursor1Time time="58.124 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="207"></NameColumnWidth>
+      <ValueColumnWidth column_width="151"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/router_top_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/pkt_valid" type="logic">
+      <obj_property name="ElementShortName">pkt_valid</obj_property>
+      <obj_property name="ObjectShortName">pkt_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/read_enb_0" type="logic">
+      <obj_property name="ElementShortName">read_enb_0</obj_property>
+      <obj_property name="ObjectShortName">read_enb_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/read_enb_1" type="logic">
+      <obj_property name="ElementShortName">read_enb_1</obj_property>
+      <obj_property name="ObjectShortName">read_enb_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/read_enb_2" type="logic">
+      <obj_property name="ElementShortName">read_enb_2</obj_property>
+      <obj_property name="ObjectShortName">read_enb_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/data_out_1" type="array">
+      <obj_property name="ElementShortName">data_out_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/data_out_2" type="array">
+      <obj_property name="ElementShortName">data_out_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/data_out_0" type="array">
+      <obj_property name="ElementShortName">data_out_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/vld_out_0" type="logic">
+      <obj_property name="ElementShortName">vld_out_0</obj_property>
+      <obj_property name="ObjectShortName">vld_out_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/vld_out_1" type="logic">
+      <obj_property name="ElementShortName">vld_out_1</obj_property>
+      <obj_property name="ObjectShortName">vld_out_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/vld_out_2" type="logic">
+      <obj_property name="ElementShortName">vld_out_2</obj_property>
+      <obj_property name="ObjectShortName">vld_out_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/err" type="logic">
+      <obj_property name="ElementShortName">err</obj_property>
+      <obj_property name="ObjectShortName">err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_tb/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

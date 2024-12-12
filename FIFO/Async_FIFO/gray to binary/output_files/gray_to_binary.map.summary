@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Wed Apr 19 13:10:24 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : gray_to_binary
+Top-level Entity Name : gray_to_binary
+Family : MAX V
+Total logic elements : 3
+Total pins : 8
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

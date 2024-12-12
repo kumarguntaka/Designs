@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vsram
+Z0 !s110 1683667388
+!i10b 1
+!s100 R952:zTVoN^Ac9S@YKS0?2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iil:S8ITNY3SaX`Hjm;@^]2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/Projects/Async_FIFO/SRAM_Asyn_FIFO/modelsim
+w1683667045
+8E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/Async_sram.v
+FE:/Projects/Async_FIFO/SRAM_Asyn_FIFO/Async_sram.v
+!i122 27
+L0 1 28
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1683667387.000000
+!s107 E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/Async_sram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/Async_sram.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vsram_tb
+R0
+!i10b 1
+!s100 4j>;`A>nO[aAm`]6?D6:;1
+R1
+Ifm0KH52Obd?Xk3kU2?B3I1
+R2
+R3
+w1683667375
+8E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/sram_tb.v
+FE:/Projects/Async_FIFO/SRAM_Asyn_FIFO/sram_tb.v
+!i122 28
+L0 1 48
+R4
+r1
+!s85 0
+31
+!s108 1683667388.000000
+!s107 E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/sram_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Projects/Async_FIFO/SRAM_Asyn_FIFO/sram_tb.v|
+!i113 1
+R5
+R6

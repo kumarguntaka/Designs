@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vrouter_reg
+Z0 !s110 1670114834
+!i10b 1
+!s100 cLa==iQcJ]752Z1nhSzMZ1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IROTFmBTGiTWLg4>X6W2Z^3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Classes/526/project/kumar/REG/sim
+w1667526472
+8D:/Classes/526/project/kumar/REG/router_reg.v
+FD:/Classes/526/project/kumar/REG/router_reg.v
+!i122 0
+L0 1 87
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1670114834.000000
+!s107 D:/Classes/526/project/kumar/REG/router_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Classes/526/project/kumar/REG/router_reg.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vrouter_reg_tb
+R0
+!i10b 1
+!s100 NAbzOR4gL9U8IRma`9>L53
+R1
+IG:fG:ilFR=zL[mEE3Zi0j2
+R2
+R3
+w1667526493
+8D:/Classes/526/project/kumar/REG/router_reg_tb.v
+FD:/Classes/526/project/kumar/REG/router_reg_tb.v
+!i122 1
+L0 1 142
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Classes/526/project/kumar/REG/router_reg_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Classes/526/project/kumar/REG/router_reg_tb.v|
+!i113 1
+R6
+R7

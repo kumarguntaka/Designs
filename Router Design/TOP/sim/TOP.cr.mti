@@ -1,0 +1,29 @@
+D:/Classes/526/project/kumar/TOP/router_fifo.v {1 {vlog -work work -stats=none D:/Classes/526/project/kumar/TOP/router_fifo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module router_fifo
+
+Top level modules:
+	router_fifo
+
+} {} {}} D:/Classes/526/project/kumar/TOP/router_sync.v {1 {vlog -work work -stats=none D:/Classes/526/project/kumar/TOP/router_sync.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module router_sync
+
+Top level modules:
+	router_sync
+
+} {} {}} D:/Classes/526/project/kumar/TOP/router_reg.v {1 {vlog -work work -stats=none D:/Classes/526/project/kumar/TOP/router_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module router_reg
+
+Top level modules:
+	router_reg
+
+} {} {}} D:/Classes/526/project/kumar/TOP/router_fsm.v {1 {vlog -work work -stats=none D:/Classes/526/project/kumar/TOP/router_fsm.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module router_fsm
+
+Top level modules:
+	router_fsm
+
+} {} {}}

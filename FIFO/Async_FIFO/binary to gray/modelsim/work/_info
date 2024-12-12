@@ -1,0 +1,81 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vBG
+Z0 !s110 1682012160
+!i10b 1
+!s100 ^2o1h30G6]0HM4MoHGHg`1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhoDUAi4;Bm=>>aOZ7?5i@1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/Projects/Async_FIFO/binary to gray/modelsim
+Z4 w1682012131
+Z5 8E:/Projects/Async_FIFO/binary_to_gray.v
+Z6 FE:/Projects/Async_FIFO/binary_to_gray.v
+!i122 2
+L0 18 5
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1682012160.000000
+!s107 E:/Projects/Async_FIFO/binary_to_gray.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|E:/Projects/Async_FIFO/binary_to_gray.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@b@g
+vbinary_to_gray
+R0
+!i10b 1
+!s100 ]E`[U=NTO_0Mnk<Jd8KO71
+R1
+IGjZ0OQGO5S]1;ZHKk_KAP3
+R2
+R3
+R4
+R5
+R6
+!i122 2
+L0 1 16
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 E:/Projects/Async_FIFO/binary_to_gray.v|
+R9
+!i113 1
+R10
+R11
+vtestbench
+R0
+!i10b 1
+!s100 [IbGg>7b]3MahnnWG5^0[1
+R1
+IBQ9dJKU[Wn>_=>XkHoQea0
+R2
+R3
+w1682012010
+8E:/Projects/Async_FIFO/binary to gray/binary_to_gray_tb.v
+FE:/Projects/Async_FIFO/binary to gray/binary_to_gray_tb.v
+!i122 1
+L0 1 70
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/Projects/Async_FIFO/binary to gray/binary_to_gray_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Projects/Async_FIFO/binary to gray/binary_to_gray_tb.v|
+!i113 1
+R10
+R11

@@ -1,0 +1,176 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vasync_fifo
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z0 !s110 1683674530
+!i10b 1
+!s100 zVaR]QFgNl6W_fGdl79Ve2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISZJb_:8PW@5<L;E_NgoV=2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dE:/Projects/Async_FIFO/modelsim
+w1683674523
+8E:/Projects/Async_FIFO/Async_FIFO.sv
+FE:/Projects/Async_FIFO/Async_FIFO.sv
+!i122 139
+L0 3 284
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1683674530.000000
+!s107 E:/Projects/Async_FIFO/Async_FIFO.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/Projects/Async_FIFO/Async_FIFO.sv|
+!i113 1
+o-work work -sv
+Z6 tCvgOpt 0
+vasync_fifo_tb
+R0
+!i10b 1
+!s100 BG2UF:[iT`kIA9h8nF?e_0
+R1
+I4QUz]SBRGJkbPC]e`WfCd0
+R2
+R3
+w1683674432
+8E:/Projects/Async_FIFO/Async_FIFO_tb.v
+FE:/Projects/Async_FIFO/Async_FIFO_tb.v
+!i122 135
+L0 1 77
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/Projects/Async_FIFO/Async_FIFO_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Projects/Async_FIFO/Async_FIFO_tb.v|
+!i113 1
+Z7 o-work work
+R6
+vBG
+R0
+!i10b 1
+!s100 ^2o1h30G6]0HM4MoHGHg`1
+R1
+IhoDUAi4;Bm=>>aOZ7?5i@1
+R2
+R3
+Z8 w1682012131
+Z9 8E:/Projects/Async_FIFO/binary_to_gray.v
+Z10 FE:/Projects/Async_FIFO/binary_to_gray.v
+!i122 136
+L0 18 5
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 E:/Projects/Async_FIFO/binary_to_gray.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|E:/Projects/Async_FIFO/binary_to_gray.v|
+!i113 1
+R7
+R6
+n@b@g
+vbinary_to_gray
+R0
+!i10b 1
+!s100 ]E`[U=NTO_0Mnk<Jd8KO71
+R1
+IGjZ0OQGO5S]1;ZHKk_KAP3
+R2
+R3
+R8
+R9
+R10
+!i122 136
+L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R7
+R6
+vGB
+R0
+!i10b 1
+!s100 9CM`joaM4bE65e[;H8oXc1
+R1
+IbN@j8geceE_6N4M8aJ_RX3
+R2
+R3
+Z13 w1681935009
+Z14 8E:/Projects/Async_FIFO/gray_to_binary.v
+Z15 FE:/Projects/Async_FIFO/gray_to_binary.v
+!i122 137
+L0 20 5
+R4
+r1
+!s85 0
+31
+R5
+Z16 !s107 E:/Projects/Async_FIFO/gray_to_binary.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|E:/Projects/Async_FIFO/gray_to_binary.v|
+!i113 1
+R7
+R6
+n@g@b
+vgray_to_binary
+R0
+!i10b 1
+!s100 ;ab?doUX[9ShojU7UR[MQ0
+R1
+Ih[_3N[UT:LLd9bH8MVmjY0
+R2
+R3
+R13
+R14
+R15
+!i122 137
+L0 1 18
+R4
+r1
+!s85 0
+31
+R5
+R16
+R17
+!i113 1
+R7
+R6
+vsram
+R0
+!i10b 1
+!s100 R952:zTVoN^Ac9S@YKS0?2
+R1
+ILgc75;G_cf6z;o>FTSdVL1
+R2
+R3
+w1683667045
+8E:\Projects\Async_FIFO\SRAM_Asyn_FIFO\Async_sram.v
+FE:\Projects\Async_FIFO\SRAM_Asyn_FIFO\Async_sram.v
+!i122 138
+L0 1 28
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:\Projects\Async_FIFO\SRAM_Asyn_FIFO\Async_sram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\Projects\Async_FIFO\SRAM_Asyn_FIFO\Async_sram.v|
+!i113 1
+R7
+R6
