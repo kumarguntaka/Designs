@@ -1,0 +1,35 @@
+# Compile of 64_freq_div.sv was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FrequencyMultiplier_tb
+# vsim -gui work.FrequencyMultiplier_tb 
+# Start time: 17:52:43 on Mar 27,2024
+# Loading sv_std.std
+# Loading work.FrequencyMultiplier_tb
+# Loading work.FrequencyMultiplier
+add wave -position insertpoint sim:/FrequencyMultiplier_tb/*
+run -all
+# ** Note: $finish    : E:/Projects/Practice/64 freq_div/tb.v(67)
+#    Time: 100 ns  Iteration: 0  Instance: /FrequencyMultiplier_tb
+# 1
+# Break in Module FrequencyMultiplier_tb at E:/Projects/Practice/64 freq_div/tb.v line 67
+run -all
+# Break key hit
+run -all
+quit -sim
+# End time: 17:55:40 on Mar 27,2024, Elapsed time: 0:02:57
+# Errors: 0, Warnings: 2
+# Compile of 64_freq_div.sv was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FrequencyMultiplier_tb
+# vsim -gui work.FrequencyMultiplier_tb 
+# Start time: 17:57:39 on Mar 27,2024
+# Loading sv_std.std
+# Loading work.FrequencyMultiplier_tb
+# Loading work.FrequencyMultiplier
+add wave -position insertpoint sim:/FrequencyMultiplier_tb/*
+run -all
+quit -sim
+# End time: 17:58:28 on Mar 27,2024, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 2

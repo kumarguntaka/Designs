@@ -1,0 +1,15 @@
+{E:/Projects/Practice/64 freq_div/tb.v} {1 {vlog -work work -sv -stats=none {E:\Projects\Practice\64 freq_div\tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FrequencyMultiplier_tb
+
+Top level modules:
+	FrequencyMultiplier_tb
+
+} {} {}} {E:/Projects/Practice/64 freq_div/64_freq_div.sv} {1 {vlog -work work -sv -stats=none {E:\Projects\Practice\64 freq_div\64_freq_div.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FrequencyMultiplier
+
+Top level modules:
+	FrequencyMultiplier
+
+} {} {}}
